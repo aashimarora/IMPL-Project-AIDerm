@@ -41,22 +41,42 @@ Debug Model Implementation: Double-check the implementation of your CNN model, l
 
 ### RESULTS
 The dataset is imbalanced and produced the following results on each of the classes. The overall accuracy was 54 % 
+
 Accuracy of Acne and Rosacea Photos : 90 %
+
 Accuracy of Warts Molluscum and other Viral Infections : 37 %
+
 Accuracy of Tinea Ringworm Candidiasis and other Fungal Infections : 28 %
+
 Accuracy of Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions : 28 %
+
 Accuracy of Seborrheic Keratoses and other Benign Tumors : 25 %
+
 Accuracy of Systemic Disease : 14 %
+
 Accuracy of Light Diseases and Disorders of Pigmentation : 13 %
+
 Accuracy of Psoriasis pictures Lichen Planus and related diseases : 12 %
+
 Accuracy of Lupus and other Connective Tissue diseases : 12 %
+
 Accuracy of Atopic Dermatitis Photos :  8 %
+
 Accuracy of Vascular Tumors :  8 %
+
 Accuracy of Poison Ivy Photos and other Contact Dermatitis :  7 %
+
 Accuracy of Urticaria Hives :  0 %
+
 Accuracy of Eczema Photos :  0 %
+
 Accuracy of Exanthems and Drug Eruptions :  0 %
+
 Accuracy of Melanoma Skin Cancer Nevi and Moles :  0 %
+
 Accuracy of Vasculitis Photos :  0 %
+
 Accuracy of Cellulitis Impetigo and other Bacterial Infections :  0 %
+
 Accuracy of Herpes HPV and other STDs Photos :  0 %
+

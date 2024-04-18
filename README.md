@@ -15,6 +15,8 @@ https://www.kaggle.com/datasets/haroonalam16/20-skin-diseases-dataset
 ### MODEL 
 I am using a CNN architecture inspired my LeNet5. CNNs offer a powerful and versatile framework for image analysis in dermatology, enabling automated diagnosis, classification, and decision support in clinical practice. Their ability to learn discriminative features directly from raw images makes them indispensable tools for AI-driven dermatological diagnosis and patient care.
 
+![ai-derm](https://github.com/aashimarora/IMPL-Project-AIDerm/assets/21965720/56474ebb-d6e6-4256-9fe9-cfda0c54dd5b)
+
 #### HYPERPARAMETER OPTIMISATION
 Various hyperparamters that I chose to tune were:
 Learning Rate, Optimizer, number of epochs, Additonal CNN layers, number of filters, size of kernel, add dropout to prevent overfitting.

@@ -1,39 +1,60 @@
 # Model Card
 
+## Model date
+April 2024
+
+## Model type
+ConvNet (CNN)
+
+## Model version
+1.0
+
+## Developer:
+Aashima Arora
 
 ## Model Description
 
 **Input:** 
 The input to the model is a 192x192 RGB image representing a skin lesion. Each image contains three channels corresponding to red, green, and blue color intensities.
 
+<img width="327" alt="input" src="https://github.com/aashimarora/IMPL-Project-AIDerm/assets/21965720/0e0d6330-fa4c-46de-80c0-00c1451a8138">
+
+
 **Output:** 
 The output of the model is a probability distribution over the classes of skin lesions present in the input image. The model predicts the likelihood of each class, including but not limited to melanoma, psoriasis, eczema, and acne.
+
+<img width="326" alt="output" src="https://github.com/aashimarora/IMPL-Project-AIDerm/assets/21965720/02116bf3-159a-4c7b-817d-8c6441c1fa4f">
+
 
 **Model Architecture:** 
 The model architecture consists of two convolutional layers followed by max-pooling layers for feature extraction. The extracted features are then passed through two fully connected layers for classification.
 
-## Performance
-Accuracy of the network on the 895 test images: 53 %
+<img width="321" alt="arch" src="https://github.com/aashimarora/IMPL-Project-AIDerm/assets/21965720/b49fe7a8-20e0-46e1-90e2-2c240e4ffe48">
 
-Accuracy of Acne and Rosacea Photos : 94 %
-Accuracy of Seborrheic Keratoses and other Benign Tumors : 22 %
-Accuracy of Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions : 22 %
-Accuracy of Tinea Ringworm Candidiasis and other Fungal Infections : 21 %
-Accuracy of Herpes HPV and other STDs Photos : 16 %
-Accuracy of Lupus and other Connective Tissue diseases : 16 %
-Accuracy of Warts Molluscum and other Viral Infections : 15 %
-Accuracy of Systemic Disease : 11 %
+
+## Performance
+Accuracy of the network on the 895 test images: 54 %
+
+Accuracy of Acne and Rosacea Photos : 90 %
+Accuracy of Warts Molluscum and other Viral Infections : 37 %
+Accuracy of Tinea Ringworm Candidiasis and other Fungal Infections : 28 %
+Accuracy of Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions : 28 %
+Accuracy of Seborrheic Keratoses and other Benign Tumors : 25 %
+Accuracy of Systemic Disease : 14 %
+Accuracy of Light Diseases and Disorders of Pigmentation : 13 %
+Accuracy of Psoriasis pictures Lichen Planus and related diseases : 12 %
+Accuracy of Lupus and other Connective Tissue diseases : 12 %
+Accuracy of Atopic Dermatitis Photos :  8 %
+Accuracy of Vascular Tumors :  8 %
 Accuracy of Poison Ivy Photos and other Contact Dermatitis :  7 %
-Accuracy of Cellulitis Impetigo and other Bacterial Infections :  7 %
-Accuracy of Vascular Tumors :  5 %
-Accuracy of Psoriasis pictures Lichen Planus and related diseases :  4 %
-Accuracy of Atopic Dermatitis Photos :  4 %
-Accuracy of Light Diseases and Disorders of Pigmentation :  3 %
 Accuracy of Urticaria Hives :  0 %
 Accuracy of Eczema Photos :  0 %
 Accuracy of Exanthems and Drug Eruptions :  0 %
 Accuracy of Melanoma Skin Cancer Nevi and Moles :  0 %
 Accuracy of Vasculitis Photos :  0 %
+Accuracy of Cellulitis Impetigo and other Bacterial Infections :  0 %
+Accuracy of Herpes HPV and other STDs Photos :  0 %
+
 
 ## Limitations
 

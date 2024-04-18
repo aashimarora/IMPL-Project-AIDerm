@@ -8,8 +8,6 @@
 ### NON-TECHNICAL EXPLANATION OF YOUR PROJECT
 An AI dermatologist utilizing a skin diseases dataset employs Convolutional Neural Networks (CNNs) to analyze dermatological images. Through deep learning, CNNs automatically extract features from images, aiding in the classification of various skin conditions such as melanoma, psoriasis, and eczema. Trained on a diverse dataset, the model learns to distinguish between different skin diseases, assisting dermatologists in accurate diagnosis and treatment planning. This technology revolutionizes dermatology by providing efficient and reliable support in image-based diagnosis, enhancing patient care and outcomes through the integration of artificial intelligence in clinical practice.
 
-![Uploading image.png…]()
-
 ### DATA
 I am using the 20 Skin diseases dataset.
 

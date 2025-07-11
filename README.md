@@ -1,4 +1,4 @@
-## PROJECT TITLE 
+## Associated with Imperial College of London, Executive Education
 
 #### AI Dermatologist: Detect skin lesions in a multi-class classification problem using CNNs
 
